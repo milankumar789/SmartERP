@@ -1,0 +1,69 @@
+.product-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.product-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.product-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.product-footer{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+}
+
+.product-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+.product-form textarea{
+
+    grid-column:1 / span 2;
+
+}
+
+.product-form-buttons{
+
+    grid-column:1 / span 2;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+}

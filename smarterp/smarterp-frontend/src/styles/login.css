@@ -1,0 +1,75 @@
+.auth-container{
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:var(--background);
+
+}
+
+.auth-card{
+
+    width:420px;
+
+    background:#ffffff;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    padding:40px;
+
+}
+
+.auth-card h1{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:var(--primary);
+
+}
+
+.auth-card form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.auth-card .erp-button{
+
+    width:100%;
+
+    margin-top:10px;
+
+}
+
+.auth-card p{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:var(--text-secondary);
+
+}
+
+.auth-card a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}

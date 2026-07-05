@@ -1,0 +1,100 @@
+.customer-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.customer-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.customer-toolbar-actions{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.customer-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.customer-footer{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+}
+
+.customer-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.customer-form-buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+}
+
+.customer-status{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:90px;
+
+    height:28px;
+
+    border-radius:4px;
+
+    border:1px solid var(--border);
+
+    font-size:13px;
+
+}
+
+.customer-status.active{
+
+    color:var(--success);
+
+}
+
+.customer-status.inactive{
+
+    color:var(--danger);
+
+}

@@ -1,0 +1,49 @@
+.category-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.category-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.category-footer{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+}
+
+.category-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.category-form-buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+}

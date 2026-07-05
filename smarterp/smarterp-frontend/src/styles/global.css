@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    font-size:16px;
+
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+
+    height:100%;
+
+}
+
+body{
+
+    font-family:"Segoe UI",Arial,sans-serif;
+
+    background:var(--background);
+
+    color:var(--text-primary);
+
+    overflow:hidden;
+
+    line-height:1.5;
+
+    -webkit-font-smoothing:antialiased;
+
+    -moz-osx-font-smoothing:grayscale;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    font:inherit;
+
+}
+
+input,
+textarea,
+select,
+button{
+
+    outline:none;
+
+    font-family:inherit;
+
+}
+
+input,
+textarea,
+select{
+
+    background:#ffffff;
+
+}
+
+textarea{
+
+    resize:vertical;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+table{
+
+    border-collapse:collapse;
+
+    width:100%;
+
+}
+
+:focus-visible{
+
+    outline:3px solid var(--primary);
+
+    outline-offset:2px;
+
+}

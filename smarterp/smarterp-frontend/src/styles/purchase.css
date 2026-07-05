@@ -1,0 +1,69 @@
+.purchase-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.purchase-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.purchase-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.purchase-footer{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:20px;
+
+}
+
+.purchase-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+.purchase-form textarea{
+
+    grid-column:1 / span 2;
+
+}
+
+.purchase-form-buttons{
+
+    grid-column:1 / span 2;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+}

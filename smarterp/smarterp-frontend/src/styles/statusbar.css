@@ -1,0 +1,31 @@
+.statusbar{
+
+    position:fixed;
+
+    left:var(--sidebar-width);
+
+    bottom:0;
+
+    width:calc(100% - var(--sidebar-width));
+
+    height:var(--statusbar-height);
+
+    background:var(--surface);
+
+    border-top:1px solid var(--border);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 18px;
+
+    font-size:13px;
+
+    color:var(--text-secondary);
+
+    z-index:900;
+
+}

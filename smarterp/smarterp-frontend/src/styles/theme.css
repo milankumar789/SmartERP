@@ -1,0 +1,35 @@
+:root{
+
+    --primary:#2563eb;
+
+    --primary-hover:#1d4ed8;
+
+    --success:#16a34a;
+
+    --danger:#dc2626;
+
+    --warning:#d97706;
+
+    --background:#f5f7fb;
+
+    --surface:#ffffff;
+
+    --border:#e5e7eb;
+
+    --text-primary:#111827;
+
+    --text-secondary:#6b7280;
+
+    --sidebar-width:260px;
+
+    --topbar-height:64px;
+
+    --statusbar-height:34px;
+
+    --radius:8px;
+
+    --shadow:0 6px 18px rgba(0,0,0,.06);
+
+    --transition:.15s ease-in-out;
+
+}
