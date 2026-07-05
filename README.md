@@ -1,7 +1,9 @@
-# SmartERP
+SmartERP
+------------------------------------------------------------------------------------------------
 SmartERP – A full-stack ERP system built with Spring Boot, React, and PostgreSQL featuring authentication, inventory management, customer &amp; supplier management, sales, purchases, reporting, and keyboard-driven navigation.
 
 Features
+------------------------------------------------------------------------------------------------
 ✔ JWT Authentication
 
 ✔ Dashboard
@@ -30,9 +32,10 @@ Features
 
 ✔ Responsive UI
 
-# Tech Stack
+Tech Stack
+------------------------------------------------------------------------------------
 
-Backend
+# Backend
 Java 21
 
 Spring Boot
@@ -63,7 +66,8 @@ CSS
 React Hot Toast
 
 
-# Run Project
+Run Project
+------------------------------------------------------------------------------------------------
 Backend
 mvn spring-boot:run
 Frontend
